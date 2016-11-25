@@ -1,0 +1,148 @@
+*{
+	font-family: Arial;
+}
+body{
+	margin: 0
+}
+.container{
+		width: 900px;
+		margin:0 auto 
+}
+
+/*------- header---*/
+header{
+	height:50px;
+	padding: 10px 0
+
+}
+.logo{
+	
+	width: 150px;
+}
+
+ul{
+	list-style: none;
+	text-decoration: none;
+	float: right;
+	
+}
+ul li{
+	display: inline-block;
+	font-size: 13px;
+	margin-right: 15px;
+
+}
+li a{
+	text-decoration: none;
+	color: #848484;
+}
+
+/*------- section---*/
+
+section{
+	background-color: #848484;
+	height: 380px;
+	color: white;
+	
+}
+.clearfix{display: table;
+	width: 100%}
+.clearfix:after{content: "";clear: both;}
+section h2{
+	font-size: 45px;
+	margin-top: 0;
+	padding-top:60px ;
+}
+
+section p{
+	width: 450px;
+	font-size: 13px;
+	color: #E6E6E6;
+	text-align: justify;
+}
+section .contacto{
+	position: relative;
+	margin: auto;
+	margin-top:60px ;
+	background-color: #A4A4A4;
+	height: 150px;
+	width: 250px;
+	border-radius: 10px;
+	text-align: center;	
+	padding-top: 10px
+}
+.contacto h4{
+	margin: 10px 0;
+	margin-top: 20px
+}
+.col-1{
+	width: 60%;
+	float: left;
+}
+
+.col-2{
+	float: left;
+	width: 40%}
+
+.contacto input{
+	width: 85%;
+	margin-bottom: 5px;
+	padding: 3px;
+
+} 
+.contacto .suscribir{
+	background-color: #00BFFF;
+	padding: 5px;
+	width: 85%;
+	border-radius: 5px;
+	margin-left: 5%
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+}
+
+/*-------- footer---*/
+
+footer{
+	color: #BDBDBD;
+	font-size: 13px;
+	padding-top: 10px
+}
+
+footer span{
+	color:#9A2EFE;
+}
+
+
+/*-------- meta---*/
+
+@media(max-width: 900px){
+	.container{width:700px}
+}
+@media(max-width: 700px){
+	.container{width: 100%	}
+	.col-1,.col-2{width: 100%}
+}
+@media(max-width: 300px){
+	.container{
+		width: 100%
+	}
+}
+
+
+/*
+@media (min-width: 1025px)and (max-width:1600px)
+{
+	body{
+		background:blue
+		}
+}
+
+@media(max-width: 800px)
+{
+.perrita{
+		width: 500px
+	}
+}
+*/
