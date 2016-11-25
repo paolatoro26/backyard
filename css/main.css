@@ -55,10 +55,10 @@ section h2{
 }
 
 section p{
-	width: 450px;
+	
 	font-size: 13px;
 	color: #E6E6E6;
-	text-align: justify;
+	text-align: left;
 }
 section .contacto{
 	position: relative;
@@ -66,7 +66,7 @@ section .contacto{
 	margin-top:60px ;
 	background-color: #A4A4A4;
 	height: 150px;
-	width: 250px;
+	width: 350px;
 	border-radius: 10px;
 	text-align: center;	
 	padding-top: 10px
@@ -123,13 +123,17 @@ footer span{
 @media(max-width: 700px){
 	.container{width: 100%	}
 	.col-1,.col-2{width: 100%}
-}
-@media(max-width: 300px){
-	.container{
-		width: 100%
-	}
+
+
 }
 
+@media(max-width: 200px){
+	.container{
+		width: 100%};
+	.col-1,.col-2{width: 100%}
+	
+	}
+}
 
 /*
 @media (min-width: 1025px)and (max-width:1600px)
